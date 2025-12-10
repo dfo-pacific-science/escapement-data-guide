@@ -6,15 +6,12 @@ site: bookdown::bookdown_site
 documentclass: book
 description: |
   Guidebook for processing multi-source escapement data across DFO Pacific
-  Region Areas into Conservation Unit (CU) time series that interoperate for
+  Region Areas into Conservation Unit (CU) time series that integrate for
   Wild Salmon Policy (WSP) and Fisheries Act reporting.
 ---
 
 # Preface {-}
 
 This guidebook aligns DFO Pacific Region Areas on processing escapement inputs
-(weirs, sonar, aerial/foot counts, genetic assignments, environmental
-covariates) into Conservation Unit (CU)-based, regionally interoperable time
-series that satisfy Wild Salmon Policy (WSP) and Fisheries Act reporting.
-Chapters map the pipeline: intake and standards, processing and QC, estimation
-and outputs, governance and compliance, and supporting assets.
+into Conservation Unit (CU)-based, regionally interoperable time
+series that satisfy Wild Salmon Policy (WSP) and Fisheries Act reporting requirements.

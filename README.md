@@ -21,8 +21,7 @@ install.packages("bookdown")
 - `_bookdown.yml` — book metadata and chapter ordering.
 - `_output.yml` — output formats (gitbook, PDF, EPUB) and basic config.
 - `index.Rmd` — preface/front-matter.
-- `01-*.Rmd` ... — chapters focused on intake, standards, estimation, and
-  governance.
+- `01-*.Rmd` 
 - `style.css` — minimal theme overrides for the gitbook build.
 
 ## Common commands
@@ -56,10 +55,3 @@ Clean build artifacts:
 ```r
 bookdown::clean_book()
 ```
-
-## Next steps
-
-- Add Area-specific data intake maps, CU schema definitions, and QC rules.
-- Document estimation methods and outputs for CU time series with WSP/Fisheries
-  Act deliverables.
-- Include templates for data packages, QC checklists, and reporting payloads.

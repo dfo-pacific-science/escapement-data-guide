@@ -12,10 +12,7 @@
 
 ## Data scope
 
-- Sources: weirs, sonar, aerial/foot counts, genetic assignments, environmental
-  covariates, and partner feeds.
-- Units: Conservation Units with consistent Area/Region codes, calendars, and
-  site metadata.
+- Sources:
 
 ## Outcomes
 
