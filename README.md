@@ -18,18 +18,19 @@ install.packages("bookdown")
 
 ## Project structure
 
-- `_bookdown.yml` — book metadata and chapter ordering.
+- `_bookdown.yml` — book metadata and chapter ordering (outputs to `docs/` for Pages).
 - `_output.yml` — output formats (gitbook, PDF, EPUB) and basic config.
 - `index.Rmd` — preface/front-matter.
-- `01-*.Rmd` 
+- `01-*.Rmd`
 - `style.css` — minimal theme overrides for the gitbook build.
+- `docs/` — rendered site for GitHub Pages (keep committed), with `.nojekyll`.
 
 ## Common commands
 
 Render HTML gitbook (default):
 
 ```r
-bookdown::render_book("index.Rmd", "bookdown::gitbook")
+bookdown::render_book("index.Rmd", "bookdown::gitbook")  # writes to docs/
 ```
 
 Render PDF (requires LaTeX toolchain):
@@ -47,7 +48,7 @@ bookdown::render_book("index.Rmd", "bookdown::epub_book")
 Preview a single chapter while writing:
 
 ```r
-bookdown::preview_chapter("02-data-management.Rmd")
+bookdown::preview_chapter("01-introduction.Rmd")
 ```
 
 Clean build artifacts:
@@ -55,3 +56,10 @@ Clean build artifacts:
 ```r
 bookdown::clean_book()
 ```
+
+## Publish to GitHub Pages
+
+1) Build: `bookdown::render_book("index.Rmd", "bookdown::gitbook")` (creates/updates `docs/`).  
+2) Ensure `docs/.nojekyll` stays committed.  
+3) Push to GitHub and set Pages source to `main` / `docs` in repo settings.  
+Reference: <https://bookdown.org/yihui/bookdown/github.html>.

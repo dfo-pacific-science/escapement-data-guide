@@ -1,0 +1,20 @@
+# Introduction
+
+## Purpose
+
+- Provide a processing playbook for DFO Pacific Region Areas to turn diverse
+  escapement inputs into CU-based, regionally interoperable time series.
+
+## Audience
+
+- Area data managers, analysts, and program leads responsible for WSP status
+  assessments and Fisheries Act reporting.
+
+## Data scope
+
+- Sources:
+
+## Outcomes
+
+- Standardized pipelines, QC, and outputs that can be shared across Areas and
+  rolled up for regional reporting.
