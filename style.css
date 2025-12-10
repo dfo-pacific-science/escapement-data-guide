@@ -1,0 +1,18 @@
+/* Minimal styling overrides for the Salmon Escapement Data Guidebook */
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.book .book-header {
+  background: #0c4f6c;
+}
+
+.book .book-header h1,
+.book .book-header a {
+  color: #ffffff;
+}
+
+.book .book-summary {
+  border-right: 1px solid #e0e0e0;
+}

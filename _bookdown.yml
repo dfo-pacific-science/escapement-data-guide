@@ -1,0 +1,15 @@
+book_filename: "salmon-escapement-guidebook"
+output_dir: "_book"
+delete_merged_file: true
+language:
+  label:
+    fig: "Figure "
+    tab: "Table "
+new_session: true
+rmd_files:
+  - "index.Rmd"
+  - "01-introduction.Rmd"
+  - "02-data-management.Rmd"
+  - "03-analysis-visualization.Rmd"
+  - "04-governance-quality.Rmd"
+  - "05-appendix.Rmd"
